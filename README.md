@@ -12,10 +12,15 @@
 
 Apabila nilai gejala sudah terinput, sistem pakar akan mengeluarkan kesimpulan yang berupa nilai presentase berdasarkan nilai gejala yang terinput, dengan keterangan:
   
-- A. Gejala pusing dan demam: G01 dan G03 
-- B. Gejala sakit kepala, demam, dan mata berair: G02, G03, dan G06
-- C. Gejala sakit kepala, lemas, pusing, dan migrain: G02, G04, G01, dan G05
-- D. Gejala mata berair dan migrain: G06 dan G05
-  
-Dimana presentase huruf yang paling besar merupakan gejala dari user tersebut.
+- A [P01] Gejala pusing dan demam: G01 dan G03 
+- B [P02] Gejala sakit kepala, demam, dan mata berair: G02, G03, dan G06
+- C [P03] Gejala sakit kepala, lemas, pusing, dan migrain: G02, G04, G01, dan G05
+- D [P04] Gejala mata berair dan migrain: G06 dan G05
 
+Berdasarkan hasil diagnosa, gejala yang dialami oleh pasien dapat diperkirakan sebagai berikut:
+- Pasien memiliki gejala “P03” dengan tingkat kepercayaan sebesar 72.84%.
+- Pasien memiliki gejala “P01” dengan tingkat kepercayaan sebesar 46.00%.
+- Pasien memiliki gejala “P04” dengan tingkat kepercayaan sebesar 40.00%.
+- Pasien memiliki gejala “P02” dengan tingkat kepercayaan sebesar 26.20%.
+
+Berdasarkan tingkat akurasi tersebut, dapat diketahui bahwa pasien memiliki kemungkinan tertinggi untuk mengalami gejala rabun jauh (miopi) berdasarkan hasil presentase <b> P03 </b> yang mewakili gejala G02, G04, G01, dan G05 sebesar 72.84% dimana apabila kita mengacu pada laman https://hellosehat.com/mata/gangguan-penglihatan/ciri-ciri-mata-minus/ dikatakan bahwa salah satu ciri dari penderita rabun jauh yaitu sering sakit kepala jika fokus membaca atau menonton terlalu lama. Sedangkan untuk sakit kepala sendiri sudah diwakili oleh G02 yang dimana apabila sakit kepala (G02) dan pusing (G01) digabungkan bisa menjadi salah satu gejala awal dari rabun jauh (miopi).  
